@@ -32,7 +32,7 @@ export const AddContact = () => {
     let objContact = {
       full_name: full_name,
       email: email,
-      agenda_slug: "biancas",
+      agenda_slug: "Simon",
       address: address,
       phone: phone,
     };
@@ -44,7 +44,7 @@ export const AddContact = () => {
     let objContact = {
       full_name: full_name,
       email: email,
-      agenda_slug: "biancas",
+      agenda_slug: "Simon",
       address: address,
       phone: phone,
       id: id,
@@ -109,12 +109,12 @@ export const AddContact = () => {
             value={address}
           ></input>
         </div>
-        <div className="col-12 d-flex justify-content-center p-2">
+        <div className="col-12 d-flex justify-content-center">
           {" "}
           {/* Centrar button */}
           <button
             type="submit"
-            className="btn btn-primary w-100"
+            className="btn btn-success w-50"
             onClick={params.index ? editContact : addContact} >
             SAVE
           </button>

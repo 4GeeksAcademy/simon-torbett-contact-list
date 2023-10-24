@@ -7,7 +7,7 @@ img {
 
 .container {
     display:flex;
-    border: 1px solid grey;
+    border: 3px solid rgba(223, 67, 28, 0.696);
     margin-bottom: 10px;
     /* align-items: center; */
 }
@@ -19,7 +19,7 @@ img {
 .iconinfo {
     display:flex;
     align-items: center;
-    color: grey;
+    color: rgb(222, 35, 35);
 }
 
 span {
